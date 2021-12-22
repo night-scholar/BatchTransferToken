@@ -1,0 +1,16 @@
+{
+  "name": "truffle-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "3.4.0"
+  },
+  "dependencies": {}
+}

@@ -208,21 +208,6 @@ contract TestERC20 is StandardToken {
         owner = msg.sender;
     }
 
-    function registerTokenToL2(address l2Token,address target)public payable returns(bool){
-        bytes memory functionCallData = abi.encodeWithSignature(
-            "registerTokenToL2(address,uint256,uint256,uint256)",
-            l2Token,
-            0,
-            0,
-            0
-        );
-
-        (bool success, bytes memory returndata) = target.call{value: 100000000000000000}(
-            functionCallData
-        );
-        return success;
-    }
-
     function setWhitelist(address who, bool enable) public {
         require(msg.sender == owner, "OWNER_ONLY");
         whitelist[who] = enable;

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/blindBox/BlindBox.sol": "BlindBox"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/blindBox/BlindBox.sol": {
+			"keccak256": "0x438a69e033d01317a8c69d6fa72d35dba3c15e6f088db97221619456440829be",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://35641221ef77e3beacb626f21b12a7f3ac01a476e9be405cc242be73f373c197",
+				"dweb:/ipfs/QmVE3fD4jvzkgwbdKXKndMUrNU5KrbcKB2R6hj7bvya8dh"
+			]
+		}
+	},
+	"version": 1
+}
